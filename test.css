@@ -1,0 +1,144 @@
+/* gerardo css page */
+* {
+    box-sizing: border-box;
+}
+html {
+    border: 1px solid red;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "head head"
+                        "lefty righty"
+                        "footer footer";
+    grid-template-columns: 2fr 2fr; 
+    
+}
+
+header {
+    height: 100px;
+    background-color: #0F5897;
+    text-align: center;
+    grid-area: head;
+}
+
+
+p {
+    position: absolute;
+    top: 100px;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-area: lefty;
+}
+
+.container-right {
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    grid-template: repeat(4, 1fr);
+    grid-area: righty;
+    align-content: auto;
+}
+
+.a {
+    position: relative;
+    letter-spacing: 2px;
+    background-color: rgba(34, 126, 95, 0.616);
+}
+
+.b {
+    position: relative;
+    letter-spacing: 2px;
+    background-color: darkkhaki;
+}
+.c {
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.d {
+    position: relative;
+    letter-spacing: 2px;
+    background-color: darkkhaki;
+}
+
+.e {
+    position: relative;
+    letter-spacing: 2px;
+    background-color: turquoise;
+}
+
+button {
+    position: absolute;
+    left: 50px;
+    height: 100px;
+    width: 200px;
+    
+}
+
+button:hover {
+    border-radius: 5px;
+    width: 700px;
+    position: absolute;
+    top: 10px;
+    height: 225px;
+    font-size: 32px;
+    color: black;
+    background-color: #0F5897;
+    padding: 50px 100px 80px 100px;
+    text-align: center;
+    animation-name: metalgear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#alpha {
+    font-size: 32px;
+    font-weight: 700;
+}
+#beta {
+    font-size: 32px;
+    font-weight: 700;
+}
+#charlie {
+    font-size: 32px;
+}
+#delta {
+    font-size: 32px;
+}
+#echo {
+    font-size: 32px;
+}
+
+#fuck {
+    font-size: 24px;
+}
+
+@keyframes metalgear {
+    0% {
+        background-color: blueviolet
+    }
+    50% {
+        background-color: azure;
+    }
+    100% {
+        background-color: brown;
+    }
+}
+
+footer {
+    font-size: 32px;
+    font-style: bold;
+    grid-area: footer;
+    height: 150px;
+    text-align: center;
+}
