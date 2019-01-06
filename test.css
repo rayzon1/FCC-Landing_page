@@ -109,13 +109,7 @@ button:hover {
     font-size: 32px;
     font-weight: 700;
 }
-#charlie {
-    font-size: 32px;
-}
-#delta {
-    font-size: 32px;
-}
-#echo {
+.button {
     font-size: 32px;
 }
 
