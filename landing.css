@@ -1,0 +1,54 @@
+ /* Stylesheet */
+  * {
+      margin: 0;
+  }
+
+  header {
+      width: 100%;
+      display: inline-block;
+      position: fixed;
+      background-color: hsl(31, 92%, 66%);
+      height: 160px;
+  }
+
+  body {
+      height: 1000px;
+  }
+  
+  #img-header {
+      width: 100px;
+      height: 100px;
+      padding-right: 30px;
+  }
+
+  /*Navigation bar*/
+  #nav-bar {
+      padding-top: 10px;
+      display: inline-block;
+      width: 150px;
+      font-size: 28px;
+      justify-content: left;
+      padding-right: 20%;
+      list-style-type: none;
+  }
+
+  /*Span for title*/
+  #title {
+      font-size: 43px;
+      font-weight: 800;
+  }
+  p {
+      padding-top: 200px;
+      z-index: -1;
+  }
+  a:link {
+      text-decoration: none;
+      color: black;
+  }
+  a:hover {
+      color: blue;
+  }
+
+
+
+
