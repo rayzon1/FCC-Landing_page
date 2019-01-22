@@ -1,6 +1,6 @@
  /* Stylesheet */
   * {
-      margin: 0;
+    margin: 0;
   }
 
   header {
@@ -37,9 +37,12 @@
       font-size: 43px;
       font-weight: 800;
   }
-  p {
+
+  /* Top content*/
+  #top {
       padding-top: 200px;
       z-index: -1;
+      text-align: center;
   }
   a:link {
       text-decoration: none;
@@ -49,6 +52,48 @@
       color: blue;
   }
 
+  /*Beer section*/
+  #beer {
+      text-decoration: none;
+      border: none;
+      font-size: 32px;
+      position: relative;
+  }
+  #beer:hover {
+      font-size: 32px;
+      width: 300px;
+      height: 100px;
+      background-color: #0F5897;
+  }
+  #drink-content {
+      color: red;
+      padding-top: 15%;
+      text-align: center;
+      margin-left: 15%;
+      margin-right: 15%;
+      font-size: 21px;
+  }
+
+  /* Box Containers */
+  .box {
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+  }
+  .one{
+    background-color: red;
+  }
+
+  .two{
+      background-color: violet;
+  }
+
+  #container{
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+  }
 
 
 
